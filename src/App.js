@@ -86,7 +86,7 @@ function NoMatch() {
 }
 
 function Stats({ user }) {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   if(!user) {
     return (
@@ -103,7 +103,7 @@ function Stats({ user }) {
 }
 
 function ProtectedRoute({ user, children }) {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   if(!user) {
     return (
